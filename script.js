@@ -52,6 +52,8 @@ startAnimations();
 // For Navbar bg
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+let navbarToggle = document.querySelector('.navbar-toggler');
+let mainNav = document.querySelector('#main-nav');
 
 function updateActiveLinks() {
     let offset = window.innerWidth > 767 ? 500 : 100; // Adjust the offset based on screen size
@@ -76,16 +78,20 @@ function updateActiveLinks() {
     });
 }
 
-// Initial call to set active links on page load
-updateActiveLinks();
+// Add click event listeners to each nav-link
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        updateActiveLinks();
+        // Close the navbar toggle bar
+        navbarToggle.click();
+    });
+});
 
-window.onscroll = updateActiveLinks;
-
-// Check for screen size on resize
-window.onresize = () => {
-    // Update the offset based on screen size when resizing
+// Check for active links on scroll
+window.onscroll = () => {
     updateActiveLinks();
 };
+
 
 
 
