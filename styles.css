@@ -403,14 +403,14 @@ svg{
 @media (max-width: 470px) {
   svg{
       position: absolute;
-      left: 33%;
+      left: 32.5%;
   }
 }
 
 @media (max-width: 440px) {
   svg{
       position: absolute;
-      left: 32%;
+      left: 31.3%;
   }
 }
 
