@@ -7,7 +7,6 @@ body{
     background-size: cover;
 }
 
-
 :root { 
     --penguin-face: white;
     --penguin-picorna: orange;
@@ -312,117 +311,170 @@ svg{
     left: 23%;
 }
 
+
+
 @media (max-width: 800px) {
-    .skill{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    svg{
-        position: absolute;
-        left: 29%;
-    }
-}
-
-@media (min-width: 1200px) and (max-width: 1400px) {
-    svg{
-        position: absolute;
-        left: 27%;
-    }
-}
-
-@media  (min-width: 950px) and (max-width: 1000px) {
-    svg{
-        position: absolute;
-        left: 16%;
-    }
-}
-
-@media (min-width: 850px) and (max-width: 950px) {
-    svg{
-        position: absolute;
-        left: 17%;
-    }
-}
-
-@media (min-width: 800px) and (max-width: 850px) {
-    svg{
-        position: absolute;
-        left: 19%;
-    }
-}
-
-@media (min-width: 701px) and (max-width: 767px) {
-    svg{
-        position: absolute;
-        left: 39%;
-    }
-}
-@media (max-width: 700px) {
-    svg{
-        position: absolute;
-        left: 38%;
-    }
-}
-@media (max-width: 650px) {
-    svg{
-        position: absolute;
-        left: 37%;
-    }
-}
-@media (max-width: 550px) {
-    svg{
-        position: absolute;
-        left: 34%;
-    }
-}
-
-@media (max-width: 470px) {
-  svg{
-      position: absolute;
-      left: 30%;
+  .skill{
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
-}
-
-@media (max-width: 450px) {
   svg{
       position: absolute;
       left: 29%;
   }
 }
 
-@media (max-width: 393px) {
-  svg{
-      position: absolute;
-      left: 30%;
-  }
-}
-
-@media (max-width: 348px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   svg{
       position: absolute;
       left: 27%;
   }
 }
 
-@media (max-width: 305px) {
+@media  (min-width: 950px) and (max-width: 1000px) {
   svg{
       position: absolute;
-      left: 24%;
+      left: 16%;
   }
 }
 
-@media (min-width: 230px) and (max-width: 276px) {
+@media (min-width: 850px) and (max-width: 950px) {
   svg{
       position: absolute;
       left: 17%;
   }
 }
 
-@media (min-width: 190px) and (max-width: 220px) {
+@media (min-width: 800px) and (max-width: 850px) {
   svg{
       position: absolute;
-      left: 12%;
+      left: 19%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 767px) {
+  svg{
+      position: absolute;
+      left: 39%;
+  }
+}
+@media (max-width: 700px) {
+  svg{
+      position: absolute;
+      left: 38%;
+  }
+}
+@media (max-width: 650px) {
+  svg{
+      position: absolute;
+      left: 37%;
+  }
+}
+
+@media (max-width: 600px) {
+  svg{
+      position: absolute;
+      left: 37%;
+  }
+}
+
+@media (max-width: 530px) {
+  svg{
+      position: absolute;
+      left: 34%;
+  }
+}
+
+@media (max-width: 560px) {
+  svg{
+      position: absolute;
+      left: 35%;
+  }
+}
+
+@media (max-width: 500px) {
+  svg{
+      position: absolute;
+      left: 34%;
+  }
+}
+
+@media (max-width: 470px) {
+  svg{
+      position: absolute;
+      left: 33%;
+  }
+}
+
+@media (max-width: 440px) {
+  svg{
+      position: absolute;
+      left: 32%;
+  }
+}
+
+
+@media (max-width: 420px) {
+  svg{
+      position: absolute;
+      left: 30%;
+  }
+}
+
+@media (max-width: 390px) {
+  svg{
+      position: absolute;
+      left: 29%;
+  }
+}
+
+@media (max-width: 350px) {
+  svg{
+      position: absolute;
+      left: 28%;
+  }
+}
+
+@media (max-width: 335px) {
+  svg{
+      position: absolute;
+      left: 26%;
+  }
+}
+
+@media (max-width: 320px) {
+  svg{
+      position: absolute;
+      left: 25%;
+  }
+}
+
+@media (max-width: 300px) {
+  svg{
+      position: absolute;
+      left: 23%;
+  }
+}
+
+@media (max-width: 260px) {
+  svg{
+      position: absolute;
+      left: 20%;
+  }
+}
+
+@media (max-width: 235px) {
+  svg{
+      position: absolute;
+      left: 19%;
+  }
+}
+
+@media (max-width: 220px) {
+  svg{
+      position: absolute;
+      left: 15%;
   }
 }
 
