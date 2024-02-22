@@ -377,10 +377,17 @@ svg{
     }
 }
 
-@media (min-width: 397px) and (max-width: 470px) {
+@media (max-width: 470px) {
   svg{
       position: absolute;
       left: 30%;
+  }
+}
+
+@media (max-width: 450px) {
+  svg{
+      position: absolute;
+      left: 28%;
   }
 }
 
