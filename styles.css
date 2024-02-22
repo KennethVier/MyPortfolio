@@ -377,6 +377,48 @@ svg{
     }
 }
 
+@media (min-width: 397px) and (max-width: 470px) {
+  svg{
+      position: absolute;
+      left: 30%;
+  }
+}
+
+@media (max-width: 393px) {
+  svg{
+      position: absolute;
+      left: 30%;
+  }
+}
+
+@media (max-width: 348px) {
+  svg{
+      position: absolute;
+      left: 27%;
+  }
+}
+
+@media (max-width: 305px) {
+  svg{
+      position: absolute;
+      left: 24%;
+  }
+}
+
+@media (min-width: 230px) and (max-width: 276px) {
+  svg{
+      position: absolute;
+      left: 17%;
+  }
+}
+
+@media (min-width: 190px) and (max-width: 220px) {
+  svg{
+      position: absolute;
+      left: 12%;
+  }
+}
+
 .navbar-nav .nav-link.active-link{
   border: 1px solid #7811f7;
   border-color: #7811f7;
